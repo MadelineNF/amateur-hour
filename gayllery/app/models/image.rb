@@ -1,4 +1,4 @@
 class Image < ApplicationRecord
-  #belongs_to :user
- # belongs_to :collections
+  belongs_to :user, optional: true
+  belongs_to :collections, optional: true
 end
