@@ -11,12 +11,13 @@ gem 'rails', '~> 5.1.1'
 #setting up react as front end
 gem 'react-rails'
 # Use postgresql as the database for Active Record
+
 group :development, :test do
-  gem 'pg', '~> 0.18'
+  gem 'pg'
 end
 
 group :production do
-  gem 'pg', '~> 0.18'
+  gem 'pg'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
