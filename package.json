@@ -1,5 +1,7 @@
 {
   "name": "gayllery",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "cors": "^2.8.3"
+  }
 }

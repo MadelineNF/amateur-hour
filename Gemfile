@@ -12,6 +12,8 @@ gem 'rails', '~> 5.1.1'
 gem 'react-rails'
 # Use postgresql as the database for Active Record
 gem 'pg'
+#Use Cors for fetch requests
+gem 'rack-cors'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
